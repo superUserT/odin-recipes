@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="styles.css">
 <style>
     body {
         background-image: url('images/1.jpeg');
@@ -32,15 +33,33 @@
       li a:hover {
         background-color: #111;
       }
+
+      .container {
+        width: 500px;
+        height: 250px;
+        margin: 50px;
+        outline: solid 1px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: black;
+      }
 </style> 
 <title>Odin Recipes</title>
 </head>
 <body>
+
 <h1>Odin Recipes</h1>
 <div>
 <ul>
-<li><a href="default.asp">Home</a></li>
-<li><a href="news.asp">Recipes</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="recipes/sushi.html">Recipes</a></li>
 <li><a href="recipes/spicy-tuna-roll.html">Spicy Tuna Roll</a></li>
 <li><a href="recipes/california-roll.html">California Roll</a></li>
 <li><a href="recipes/rainbow-roll.html">Rainbow Roll</a></li>
@@ -48,12 +67,15 @@
 </ul>
 </div>
 
+<h2>How to Video for Beginners</h2>
+<div class="container" style="margin: 0 auto;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fTYPhXYotaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-<div>
-    <h2>How to Video for Beginners</h2>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EGeNKGosXA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <h2>Levels of Sushi Expertise</h2>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x3MZjf0FziE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2>Levels of Sushi Expertise</h2>
+<div class="container" style="margin: 0 auto;">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x3MZjf0FziE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </body>
 </html>
