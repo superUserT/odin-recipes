@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+    body {
+        background-image: url('images/1.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
+</style> 
 <title>Odin Recipes</title>
 </head>
 <body>
 <h1>Odin Recipes</h1>
+<div>
 <ul>
+<li><a href="default.asp">Home</a></li>
+<li><a href="news.asp">Recipes</a></li>
 <li><a href="recipes/spicy-tuna-roll.html">Spicy Tuna Roll</a></li>
 <li><a href="recipes/california-roll.html">California Roll</a></li>
 <li><a href="recipes/rainbow-roll.html">Rainbow Roll</a></li>
+<li><a href="about.asp">About</a></li>
 </ul>
+</div>
+
+
+<div>
+    <h2>How to Video for Beginners</h2>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EGeNKGosXA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2>Levels of Sushi Expertise</h2>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x3MZjf0FziE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 </body>
 </html>
