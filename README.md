@@ -1,6 +1,6 @@
 Sushi Recipes Website
 
-This project is a website that provides recipes for sushi rolls. The website includes a list of recipes, as well as instructions on how to make each recipe.
+This project is a website that provides recipes for sushi rolls. The website includes a list of recipes, as well as instructions on how to make each recipe. This project was made HTML and CSS only and was made as part of the odin project fundamentals.
 Getting Started
 
 To get started with this project, you will need to have the following:
